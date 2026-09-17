@@ -1,0 +1,4 @@
+FROM ghcr.io/open-webui/open-webui:main
+
+# Vercel injects PORT for container services; Open WebUI listens on 8080 by default.
+ENV PORT=8080
