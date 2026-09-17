@@ -1,4 +1,4 @@
-FROM ghcr.io/open-webui/open-webui:main
+FROM ghcr.io/open-webui/open-webui:v0.11.3
 
 # Vercel containers listen on PORT (default 80).
 # Open WebUI's official start.sh reads PORT and passes it to Uvicorn.
